@@ -1,5 +1,5 @@
-//Name: Saaj Mulik
-//Prn: 23070123109
+//Name: Srihari Nair
+//Prn: 23070123131
 //Class: EnTC B-2
 
 #include<iostream>
@@ -20,3 +20,18 @@ int main()
 
     return 0;    
 }
+
+/* OUTPUT:
+enter the number of digits you want to print: 8
+1
+2
+3
+4
+5
+6
+7
+8
+
+--------------------------------
+Process exited after 7.504 seconds with return value 0
+Press any key to continue . . . */ 
