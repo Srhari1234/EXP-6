@@ -1,5 +1,5 @@
-//Name: Saaj Mulik
-//Prn: 23070123109
+//Name: Srihari Nair
+//Prn: 23070123131
 //Class: Entc B-2
 
 #include <iostream>
@@ -23,5 +23,16 @@ int main()
         i++;
     }
 
+    /* OUTPUT:
+        Enter the number of rows for the triangle: 5
+*
+**
+***
+****
+*****
+
+--------------------------------
+Process exited after 3.337 seconds with return value 0
+Press any key to continue . . . */
     return 0;
 }
