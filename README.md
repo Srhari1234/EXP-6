@@ -61,3 +61,7 @@ CODE7:
 OUTPUT7:
 
 ![image](https://github.com/user-attachments/assets/3e7d7425-f172-4179-80ad-077818f657ff)
+
+Conclusion:
+
+Mastering for, while, and do-while loops in C++ allows you to handle repetitive tasks efficiently. Use for for a known number of iterations, while for conditions checked before execution, and do-while for conditions checked after execution.
