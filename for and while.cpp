@@ -1,5 +1,5 @@
-//Name: Saaj Mulik
-//Prn: 23070123109
+//Name: Srihari Nair
+//Prn: 23070123131
 //Class: EnTC B-2
 
 #include<iostream>
@@ -28,3 +28,18 @@ int main()
     cout<<endl;
     return 0;
 }
+
+/* OUTPUT:
+enter the number of rows: 7
+            %
+          % % %
+        % % % % %
+      % % % % % % %
+    % % % % % % % % %
+  % % % % % % % % % % %
+% % % % % % % % % % % % %
+
+
+--------------------------------
+Process exited after 1.904 seconds with return value 0
+Press any key to continue . . . */
