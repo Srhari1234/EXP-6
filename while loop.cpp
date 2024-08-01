@@ -16,3 +16,14 @@ int main()
         i++;
     }
 }
+
+/* OUTPUT:
+enter how many numbers you want to print: 4
+1
+2
+3
+4
+
+--------------------------------
+Process exited after 2.624 seconds with return value 0
+Press any key to continue . . . */
