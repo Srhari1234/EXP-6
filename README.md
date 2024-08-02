@@ -1,67 +1,212 @@
 # EXP-6
 
-Aim: 
+## Aim: 
 Creating for, while, do while loops.
 
-Theory: 
+## Theory: 
 For loop is used to iterate a part of the program several times. If the number of iteration is fixed, it is recommended to use for loop whiile loops can execute a block of code as long as a specified condition is reached do/while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true.
 
-CODE1:
+## CODE1:
 
-![image](https://github.com/user-attachments/assets/5f5c05dd-5c95-4460-887d-bd37453ebd52)
+```
+//Name: Srihari Nair
+//Prn: 23070123131
+//Class: EnTC B-2
 
-OUTPUT1:
+#include<iostream>
+using namespace std;
 
-![image](https://github.com/user-attachments/assets/89fa5a75-cce3-49f5-8ae2-bba54a9b7219)
+int main()
+{
+    int i=1,n;
+    cout<<"enter how many numbers you want to print: ";
+    cin>>n;
+    while (i<=n)
+    {
+        cout<<i<<endl;
+        i++;
+    }
+}
+```
 
-CODE2:
+## CODE2:
 
-![image](https://github.com/user-attachments/assets/fe404785-c870-4cf9-93ea-6b5e2c32ea36)
+```
+//Name: Srihari Nair
+//Prn: 23070123131
+//Class: Entc B-2
 
-OUTPUT2:
+#include <iostream>
+using namespace std;
 
-![image](https://github.com/user-attachments/assets/e5475411-6d94-4ef6-a91d-1d487df60497)
+int main() 
+{
+    int n;
+    cout << "Enter the number of rows for the triangle: ";
+    cin >> n;
+    int i = 1;
+    while (i <= n) 
+    {
+        int j = 1;
+        while (j <= i) 
+        {
+            std::cout << "*";
+            j++;
+        }
+        cout <<endl;
+        i++;
+    }
 
-CODE3:
+    return 0;
+}
+```
 
-![image](https://github.com/user-attachments/assets/b2340db4-cb18-43f1-90be-003d949bacbb)
+## CODE3:
 
-OUTPUT3:
+```
+//Name: Srihari Nair
+//Prn: 23070123131
+//Class: EnTC B-2
 
-![image](https://github.com/user-attachments/assets/a29fbf90-5cf9-4d4a-8889-7c7c6ae113f3)
+#include <iostream>
+using namespace std;
 
-CODE4:
+int main() 
 
-![image](https://github.com/user-attachments/assets/f4f0b119-00cd-4b69-b46d-f477b7baa304)
+{
+    for (int i = 1; i <= 5; ++i) 
+    {
+        for (int j = 1; j <= 5; ++j) 
+        {
+            cout << i << " x " << j << " = " << i * j << "\t";
+        }
+        cout << endl;
+    }
+    return 0;
+}
+```
 
-OUTPUT4:
+## CODE4:
 
-![image](https://github.com/user-attachments/assets/e8543845-ccb1-417f-8c8e-3533d2aed6b9)
+```
+//Name: Srihari Nair
+//Prn: 23070123131
+//Class: EnTC B-2
 
-CODE5:
+#include<iostream>
+using namespace std;
 
-![image](https://github.com/user-attachments/assets/98e08d78-279c-47da-9dde-1c4c73e1db13)
+int main()
+{
+    int i=1,n;
+    cout<<"enter the number of digits you want to print: ";
+    cin>>n;
+    do
+    {
+        cout<<i<<endl;
+        i++;
 
-OUTPUT5:
+    }
+    while(i<=n);
 
-![image](https://github.com/user-attachments/assets/779d45c7-4c3a-4b34-bc64-d81abf883626)
+    return 0;    
+}
+```
 
-CODE6:
+## CODE5:
 
-![image](https://github.com/user-attachments/assets/18006429-e8b5-49e3-942d-5ec03036613c)
+```
+//Name: Srihari Nair
+//Prn: 23070123131
+//Class: EnTC B-2
 
-OUTPUT6:
+#include<iostream>
+using namespace std;
 
-![image](https://github.com/user-attachments/assets/b953f614-8b3b-4c91-b899-f06e328b5eb8)
+int main()
+{
+    int i,j,k=0,n;
+    cout<<"enter the number of rows: ";
+    cin>>n;
+    for(i=1;i<=n;i++)
+    {
+        for(j=1;j<=(n-i);j++)
+        {
+            cout<<"  ";
+        }
+        while (k!=(2*i-1))
+        {
+            cout<<"% ";
+            k++;
+        }
+        k=0;
+        cout<<endl;
+    }
 
-CODE7:
+    cout<<endl;
+    return 0;
+}
+```
 
-![image](https://github.com/user-attachments/assets/3c1e4ee6-d3e6-4eb3-a47c-ceb5076b6329)
+## CODE6:
 
-OUTPUT7:
+```
+//Name: Srihari Nair
+//Prn: 23070123131
+//Class: EnTC B-2
 
-![image](https://github.com/user-attachments/assets/3e7d7425-f172-4179-80ad-077818f657ff)
+#include <iostream>
+using namespace std;
 
-Conclusion:
+int main() 
+{
+    int rows, columns, i = 1;
+    char ch;
+
+    cout << "number of rows: ";
+    cin >> rows;
+
+    cout << "number of columns: ";
+    cin >> columns;
+
+    cout << "character: ";
+    cin >> ch;
+
+    while (i <= rows) 
+    {
+        for (int j = 1; j <= columns; j++) 
+        {
+            cout << ch << " ";
+        }
+        cout <<endl;
+        i++;
+    }
+
+    return 0;
+}
+```
+
+## CODE7:
+
+```
+//Name: Srihari Nair
+//Prn: 23070123131
+//Class: EnTC B-2
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int i;
+    for(i=0;i<13;i++)
+    {
+        cout<<i<<endl;
+    }
+    return 0;
+}
+```
+
+## Conclusion:
 
 Mastering for, while, and do-while loops in C++ allows you to handle repetitive tasks efficiently. Use for for a known number of iterations, while for conditions checked before execution, and do-while for conditions checked after execution.
